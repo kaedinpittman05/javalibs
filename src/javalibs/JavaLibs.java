@@ -52,7 +52,7 @@ public class JavaLibs {
         System.out.println(number1 + " cookies cost");
         number3= sc.nextDouble();
         
-        System.out.println("lets see if you are correct");
+        System.out.println("lets compare answers");
         
         total= number1*number2;
         
