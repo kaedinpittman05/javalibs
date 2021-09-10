@@ -37,7 +37,7 @@ public class JavaLibs {
         System.out.println("Please enter first name");
         firstName = sc.nextLine();
         
-        System.out.println("Hi"+firstName + " do you want to buy cookies");
+        System.out.println("Hi " +firstName + " do you want to buy cookies");
         yes = sc.nextLine();
         
         System.out.println("Please enter the emount of cookies you want");
@@ -59,7 +59,10 @@ public class JavaLibs {
         System.out.println("is "  +total+  " equal to " +number3);
         yes = sc.next();
         
-        System.out.println("if you split the cost of " + total+ " with 3 people");
+        System.out.println("if you split the cost of " + total );
+        
+        System.out.println("with 3 of your friends");
+        
         System.out.println("how much would you each have to pay");
         number4 = sc.nextDouble();
         
@@ -84,9 +87,23 @@ public class JavaLibs {
         total3= number1/4;
         
         
-        System.out.println("The correct answer is " +total3);
+        System.out.println( firstName +","+ person1 + ","+person2+","  );
         
+        System.out.println(person3);
         
+        System.out.println(" Want to buy "+ number1+ " cookies"); 
+        
+        System.out.println("Each cookie costs "+ number2);   
+        
+        System.out.println("The total for the cookies is "+ total);
+        
+        System.out.println("Spliting the cost between them");
+        
+        System.out.println("Every one would have to pay "+total2);
+        
+        System.out.println("When they split the cookies evenly amoung");
+        
+        System.out.println("them selves they each have "+total3+ " cookies");
     }
     
     
